@@ -31,14 +31,21 @@ header nav ul li a{
     text-decoration: none;
     color: #FFFFFF;
 }
-main{
-  height:80%;
-  width:100%;
-}
 
 #banner{
     display: flex;
     flex-direction: row;
+    height: 60%;
 }
 
+#categorias{
+    display: flex;
+    flex-direction: column;
+    height: 30%;
+}
 
+#lista-categorias{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
