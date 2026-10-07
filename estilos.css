@@ -8,11 +8,37 @@ header{
   flex-direction:row;
   height:10%;
   width:100%;
+  justify-content: space-between;
+  align-items: center;
 }
 
+header nav ul{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    font-size: 20px;
+    list-style: none;
+    
+}
+
+header nav ul li a:hover{
+    color:#7C3AED;
+    background-color: aqua;
+    border-radius: 10px;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
 main{
   height:80%;
   width:100%;
+}
+
+#banner{
+    display: flex;
+    flex-direction: row;
 }
 
 
