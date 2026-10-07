@@ -1,0 +1,16 @@
+body{
+  background-color: #050B1A;
+  color:#FFFFFF;
+}
+
+header{
+  display:flex;
+  flex-direction:row;
+  height:10%;
+  width:100%;
+}
+
+main{
+  height:80%;
+  width:100%;
+}
