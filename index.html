@@ -4,17 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Score Game</title>
-    <link rel="stylesheet" href="estilos.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
-    <header id="menu">
+    <header id="menu" class="d-flex align-items-center justify-content-between flex-row  p-3">
         <h2>Score Game</h2>
         <nav>
-            <ul>
+            <ul class="d-flex align-items-center list-unstyled m-0 gap-3">
                 <li><a href="index.html">Inicio</a></li>
                 <li><a href="#">Juegos</a></li>
                 <li><a href="#">Raking</a></li>
+                <li class="nav-item"><a class="nav-link" data-bs-toggle="modal" data-bs-target="#myModalAdmin" href="#"><span class="material-symbols-outlined">login</span></a> </li>
             </ul>
         </nav>
         <section id="buscador">
@@ -45,7 +48,7 @@
                 <article class="categoria" id="videojuego">
                     <img src="control chiquito.png" width="100px" height="75px">
                     <h4>Videojuegos</h4>
-                    <p>Todos los jugadores en un solo lugar</p>
+                    <p>Todos los juegos aqui</p>
                     <span class="material-symbols-outlined">arrow_forward</span>
                 </article>
                 <article class="categoria" id="generos">
@@ -69,5 +72,45 @@
             </section>
         </section>
     </main>
+
+   <div class="modal  " id="myModalAdmin">
+  <div class="modal-dialog">
+    <div class="modal-content  modal_admin" >
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">iniciar sesion Admin</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+       <form action="Admin/indexAdmin.html">
+  <div class="mb-3 mt-3">
+    <label for="email" class="form-label">Email:</label>
+    <input type="email" class="form-control" id="email" placeholder="ejemplo:juanQgmail.com" name="email">
+  </div>
+  <div class="mb-3">
+    <label for="pwd" class="form-label">Contrasena:</label>
+    <input type="password" class="form-control" id="pwd" placeholder="introducir contraseña" name="pswd">
+  </div>
+  <div class="form-check mb-3">
+    <label class="form-check-label">
+      <input class="form-check-input" type="checkbox" name="remember"> recuerdame
+    </label>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
 </body>
 </html>
