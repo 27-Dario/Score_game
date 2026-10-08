@@ -65,6 +65,18 @@ main{
     gap: 30px;
 }
 
+#busca{
+    border:none;
+    background:none ;
+    outline: none;
+}
+
+#buscador{
+    background-color: #102342;
+    display: flex;
+    align-items: center;
+}
+
 #lista-categorias{
     display: flex;
     flex-direction: row;
@@ -127,9 +139,13 @@ header button:hover{
     align-items: center;
     border: none;
     border-radius: 15px;
-    padding: 3px;
+    padding: 5px;
     background-color: #2563EB;
     color: #FFFFFF;
     font-size: 15px;
+    gap: 7px;
 }
 
+.categoria .material-symbols-outlined{
+    float: right;
+}

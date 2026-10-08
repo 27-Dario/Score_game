@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Score Game</title>
     <link rel="stylesheet" href="estilos.css">
-
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 </head>
 <body>
     <header id="menu">
@@ -18,9 +18,8 @@
             </ul>
         </nav>
         <section id="buscador">
-            <form>
-                <input type="search" placeholder="Buscar videojuegos/usuarios">
-            </form>
+            <span class="material-symbols-outlined">search</span>
+            <input type="search" placeholder="Buscar videojuegos/usuarios" id="busca">
         </section>
         <section id="botones">
             <button type="button" class="btn_inicioSesion">Iniciar sesión</button>
@@ -33,7 +32,7 @@
             <section id="banner-texto" >
                 <h2>Encuentra, juega y compara tu nivel</h2>
                 <p>Clasifica jugadores, explora por videojuegos, géneros y descubre los juegos más populares del momento.</p>
-                <button type="button" >Explorar ahora </button>
+                <button type="button" >Explorar ahora <span class="material-symbols-outlined">arrow_forward</span></button>
             </section>
             <aside id="banner-imagen">
                 <img src="control.png" alt="Control de videojuegos" height="350px" >
@@ -47,21 +46,25 @@
                     <img src="control chiquito.png" width="100px" height="75px">
                     <h4>Videojuegos</h4>
                     <p>Todos los jugadores en un solo lugar</p>
+                    <span class="material-symbols-outlined">arrow_forward</span>
                 </article>
                 <article class="categoria" id="generos">
                     <img src="estrella.png" width="90px" height="75px">
                     <h4>Géneros</h4>
                     <p>Encuentra tu estilo de juego</p>
+                    <span class="material-symbols-outlined">arrow_forward</span>
                 </article>
                 <article class="categoria" id="populares">
                     <img src="fuego.png" width="90px" height="75px">
                     <h4>Más populares</h4>
                     <p>Lo que todos están jugando</p>
+                    <span class="material-symbols-outlined">arrow_forward</span>
                 </article>
                 <article class="categoria" id="jugadores">
                     <img src="usuarios.png" width="90px" height="75px">
                     <h4>Jugadores</h4>
                     <p>Conoce y compite</p>
+                    <span class="material-symbols-outlined">arrow_forward</span>
                 </article>
             </section>
         </section>
