@@ -22,6 +22,17 @@ h2{
     font-size: 23px;
 }
 
+main #banner #banner-texto a{
+text-decoration: none;
+color: white;
+}
+
+main #banner #banner-texto #explorar{
+    width: 200px;
+    background-color: #2563EB;
+    border-radius: 15px;
+}
+
 header nav ul{
     display: flex;
     flex-direction: row;
