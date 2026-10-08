@@ -115,18 +115,25 @@ input[type="search"]{
     color: #FFFFFF;
 }
 
-header button{
-    width:100px ;
-    height:30px ;
-    background-color: transparent;
+header #formularios{
+    display: flex;
+    justify-content: space-between;
+    width:auto;
+    height:30px;
     color: #FFFFFF;
-    border: none;
-    font-size:15px ;
+    font-size:15px;
+    gap: 20px;
+
 }
-header button:hover{
-    background-color: #08546B;
+
+header #formularios a{
+    text-decoration: none;
+    color: white;
+}
+
+header #formularios a:hover{
+    color:#7C3AED;
     border-radius: 15px;
-    color:deepskyblue;
 }
 
 #banner button{

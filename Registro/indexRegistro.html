@@ -3,9 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Crear Cuenta</title>
+    <link rel="stylesheet" href="estilosRegistro.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 </head>
 <body>
-    
+    <header>
+        <img src="img/control chiquito.png" width="80px" height="60px">
+        <a href="/index.html"><h2>Score Game</h2></a>
+    </header>
+
+    <main>
+        <section id="formUsuario">
+            <section class="encabezado-form">
+                <h2>Crear Cuenta</h2>
+                <p>Unete a la comunidad y empieza a clasificartu nivel en tus juegos favoritos.</p>
+            </section>
+            <form >
+                <Section id="us" class="form">
+                    <span class="material-symbols-outlined">person</span>
+                    <input type="text" id="nom-usuario" placeholder="Introduce nombre de usuario">
+                </Section>
+                <Section id="gm" class="form">
+                    <span class="material-symbols-outlined">mail</span>
+                    <input type="email" id="email" placeholder="Ejemplo: a@agmail.com" >
+                </Section>
+                <Section id="pw" class="form">
+                    <span class="material-symbols-outlined">lock</span>
+                    <input type="password" id="contrasena" placeholder="Introduce contraseña" minlength="9" maxlength="9">
+                    
+                </Section>
+                <button type="submit" class="btn-registrarse" onclick="crearCuenta();">Crear</button>
+            </form>
+
+            <p class="enlace-login">
+                ¿Ya tienes una cuenta? <a href="/InicioSesion/indexSesion.html">Inicia Sesión</a>
+            </p>
+        </section>
+
+        <section id="imagenFormUsuario">
+            <img src="img/crear cuenta.png" >
+        </section>
+    </main>
+    <script src="form.js"></script>
 </body>
 </html>
