@@ -1,0 +1,114 @@
+body {
+    background-color: #050B1A;
+    color: #FFFFFF;
+}
+
+.menu-link {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.menu-link:hover {
+    color: #A855F7;
+}
+
+#banner-perfil {
+    min-height: 240px;
+    display: flex;
+    align-items: flex-end;
+    border: 1px solid #3C1F6E;
+}
+
+.avatar-grande {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border: 3px solid #A855F7;
+    margin-bottom: -20px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+    position: relative;
+    z-index: 2;
+}
+
+.juego-fav-img {
+    width: 80px;
+    height: 100px;
+    object-fit: cover;
+    border: 1px solid #1E3A8A;
+}
+
+.nav-perfil {
+    display: flex;
+    gap: 30px;
+    border-bottom: 1px solid #1E3A8A;
+}
+
+.nav-perfil a {
+    color: #9CA3AF;
+    text-decoration: none;
+    padding-bottom: 10px;
+    font-size: 16px;
+}
+
+.nav-perfil a.active {
+    color: #FFFFFF;
+    border-bottom: 3px solid #2563EB;
+    font-weight: bold;
+}
+
+.tarjeta-perfil {
+    background-color: #102342;
+    border: 1px solid #1E3A8A;
+}
+
+.modal_admin {
+    background-color: #050B1A;
+    color: white;
+}
+
+.campo-label-input {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.campo-label-input label {
+    font-size: 14px;
+    color: #9CA3AF;
+}
+
+.campo-label-input .form {
+    background-color: #122242;
+    border: 1px solid #1E3A8A;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    padding: 10px 16px;
+    gap: 12px;
+}
+
+.campo-label-input .form input {
+    background: transparent;
+    color: #FFFFFF;
+    font-size: 16px;
+    width: 100%;
+}
+
+.campo-label-input .form span {
+    color: #9CA3AF;
+}
+
+.btn-sesion {
+    background-color: #2563EB;
+    color: #FFFFFF;
+    border-radius: 12px;
+    padding: 12px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.btn-sesion:hover {
+    background-color: #1D4ED8;
+}
